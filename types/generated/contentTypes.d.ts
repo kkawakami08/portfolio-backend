@@ -391,6 +391,7 @@ export interface ApiProjectProject extends Struct.CollectionTypeSchema {
     description: Schema.Attribute.Text;
     features: Schema.Attribute.RichText;
     githubLink: Schema.Attribute.String;
+    images: Schema.Attribute.Media<'images' | 'files', true>;
     learnings: Schema.Attribute.RichText;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
