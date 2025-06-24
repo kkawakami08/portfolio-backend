@@ -389,7 +389,7 @@ export interface ApiProjectProject extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     demoLink: Schema.Attribute.String;
     description: Schema.Attribute.Text;
-    features: Schema.Attribute.Component<'elements.feature', true>;
+    features: Schema.Attribute.RichText;
     githubLink: Schema.Attribute.String;
     learnings: Schema.Attribute.RichText;
     locale: Schema.Attribute.String & Schema.Attribute.Private;

@@ -35,9 +35,7 @@
       "type": "json"
     },
     "features": {
-      "type": "component",
-      "component": "elements.feature",
-      "repeatable": true
+      "type": "richtext"
     },
     "learnings": {
       "type": "richtext"
